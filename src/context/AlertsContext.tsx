@@ -1,4 +1,6 @@
-import { createContext, useContext, ReactNode } from "react";
+
+import { createContext, useContext } from "react";
+import type { ReactNode } from "react";
 
 const AlertsContext = createContext<any>(null);
 
