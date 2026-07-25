@@ -1,32 +1,62 @@
-# React + TypeScript + Vite
+# ThreatWatch
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern cybersecurity threat monitoring dashboard built to help users visualize, analyze, and manage security threats through a clean SOC-inspired interface.
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+ThreatWatch is a cybersecurity monitoring platform focused on simplifying threat analysis and security visibility.
 
-## React Compiler
+Modern security systems generate huge amounts of data, making it difficult to quickly identify important threats and take action. ThreatWatch provides a centralized dashboard where users can monitor alerts, analyze threat patterns, track severity levels, and get meaningful insights through interactive visualizations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The goal is simple: convert complex security data into an easy-to-understand interface that helps users make faster and better decisions.
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Features
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### Security Dashboard
+- Overview of security activities
+- Threat statistics and key metrics
+- Severity-based threat analysis
+- Interactive charts and visualizations
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Alert Monitoring
+- Centralized threat alerts
+- Severity classification
+- Suspicious activity tracking
+- Organized security event management
+
+### Analytics
+- Threat trend visualization
+- Pattern analysis
+- Historical security insights
+
+### User Experience
+- SOC-style dashboard interface
+- Responsive design
+- Clean and modern UI
+
+---
+
+## Problem Statement
+
+Cybersecurity teams often deal with large amounts of security data coming from different sources. Finding critical threats quickly becomes challenging.
+
+ThreatWatch solves this by providing a unified platform where security information can be monitored, analyzed, and understood more efficiently.
+
+---
+
+## Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router
+- Recharts
+- Lucide React
+
+---
+
+## Project Structure
